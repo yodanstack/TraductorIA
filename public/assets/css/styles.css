@@ -65,8 +65,6 @@ body{
     font-size: 1.8rem;
     border-radius: 1rem;
     word-wrap: break-word;
-    display: flex;
-    align-items: center;
 }
 
 
@@ -75,16 +73,15 @@ body{
     background: #007bff;
     color: white;
     text-align: right;
-    justify-content: flex-end;
+    margin-left: auto;
 }
 
 
 .chat__message--boot{
-    align-items: flex-start;
     background: #e0e0e0;
     color: white;
-    text-align: right;
-    justify-content: flex-start;
+    text-align: left;
+    margin-right: auto;
 }
 
 
